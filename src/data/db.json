@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My first post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "First ever Crochet dress"
+    },
+    {
+      "id": 2,
+      "title": "My second post",
+      "datetime": "July 03, 2021 11:17:36 AM",
+      "body": "First ever Embroidery dress"
+    },
+    {
+      "id": 3,
+      "title": "My third post edited2",
+      "datetime": "August 02,2023 12:48:46 PM",
+      "body": "First ever React app edited2"
+    },
+    {
+      "id": 4,
+      "title": "New post",
+      "datetime": "August 02,2023 12:49:03 PM",
+      "body": "new post"
+    }
+  ]
+}
