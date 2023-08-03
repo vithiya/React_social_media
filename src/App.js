@@ -9,9 +9,8 @@ import About from './About.js';
 import Missing from './Missing.js';
 import Footer from './Footer.js';
 import { Routes,Route } from 'react-router-dom';
-import PostLayout from './PostLayout';
 import EditPost from './EditPost';
-import DataContext, { DataProvider }  from './context/DataContext';
+import { DataProvider }  from './context/DataContext';
 function App() {
  
   return (

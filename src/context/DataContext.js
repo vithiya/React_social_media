@@ -98,7 +98,7 @@ export const DataProvider =({children})=>{
       const editPost={id, title:editTitle,datetime,body:editBody};
       try{
         const response =await api.put(`/posts/${id}`,editPost);
-        const postsList =posts.filter( post => post.id !==id);
+        //const postsList =posts.filter( post => post.id !==id);
         setPosts(posts.map(post => post.id === id ? {...response.data}: post));
         setEditBody('');
         setEditTitle('');
